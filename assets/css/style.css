@@ -1,0 +1,55 @@
+.barra-navegacion{
+    background: linear-gradient(135deg, #1C2120, #4D5654);
+}
+
+.colorletra{
+    color: white;
+    font-weight:600;
+    font-size: 2rem;
+}
+
+.barraconcosas{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.imagenperfil{
+    height: 80px;
+    width: 80px;
+}
+
+.mi-informacion {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+/* Estilo del título "Full Stack Developer" */
+.titulo-desarrollador {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white; /* Color oscuro */
+}
+
+/* Estilo del subtítulo "Jose Ignacio Castillo" */
+.nombre-desarrollador {
+    font-size: 5rem;
+    font-style:normal;
+    color: white; /* Color gris oscuro */
+    font-weight: 00;
+}
+
+/* Estilo para los botones */
+.botones .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.seccion-media{
+    background: linear-gradient(135deg, #545656, #3f4443);
+}
+
+.iconoss{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin: 0 30px;
+}
