@@ -1,7 +1,12 @@
-.barra-navegacion{
-    background: linear-gradient(135deg, #1C2120, #4D5654);
+body{
+    background-color: rgb(4, 4, 26);
 }
-
+.barra-navegacion{
+    background-color: rgb(255, 136, 0);
+}
+.mi-nombre{
+    color:rgb(4, 4, 26);
+}
 .colorletra{
     color: white;
     font-weight:600;
@@ -9,7 +14,7 @@
 }
 
 .barraconcosas{
-    color: white;
+    color: rgb(4, 4, 26);
     font-weight: 500;
     font-size: 1.5rem;
 }
@@ -20,8 +25,7 @@
 }
 
 .mi-informacion {
-    padding: 50px 0;
-    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 50px 0; /* Color de fondo claro */
 }
 
 /* Estilo del título "Full Stack Developer" */
@@ -45,7 +49,7 @@
     font-size: 1.2rem;
 }
 .seccion-media{
-    background: linear-gradient(135deg, #545656, #3f4443);
+    background-color: rgb(4, 4, 26);
 }
 
 .iconoss{
@@ -53,3 +57,79 @@
     font-size: 3rem;
     margin: 0 30px;
 }
+
+
+.fechas{
+    color: #e0e0e0; /* Un color blanco más suave para mejor contraste */
+    line-height: 1.8;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+.texto-estudios{
+    color: #e0e0e0; 
+    line-height: 1.8;
+    font-size: 1.5rem;
+    font-weight: 500;
+}  
+.icono{
+    color: white;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.cosas-estudiadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+.puesto {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 2rem; 
+    gap: 10px; 
+}
+@media (max-width: 768px) {
+    .puesto {
+        flex-direction: column; /* Cambia la disposición a vertical en pantallas pequeñas */
+        padding: 0 1rem;
+    }
+}
+
+.puesto .icono {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.puesto h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    /* Elimina el display: flex para que no alinee el icono y el texto en fila */
+}
+
+.puesto .fechas {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.puesto p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 5px 0 15px;
+}
+.titulo-experiencia{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(5, 5, 33);
+    color: white;
+    border-bottom: 2px solid #fff;
+    font-size: 2.5rem;
+}
+
