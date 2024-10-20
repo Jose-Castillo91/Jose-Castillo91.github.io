@@ -1,133 +1,191 @@
-body{
+/* Estilos globales */
+body {
     background-color: rgb(4, 4, 26);
 }
-.barra-navegacion{
-    background-color: rgb(255, 136, 0);
-}
-.mi-nombre{
-    color:rgb(4, 4, 26);
-}
-.colorletra{
+
+.mi-nombre {
     color: white;
-    font-weight:600;
+}
+
+.colorletra {
+    color: white;
+    font-weight: 600;
     font-size: 2rem;
 }
 
-.barraconcosas{
-    color: rgb(4, 4, 26);
+.barraconcosas {
+    color: white;
     font-weight: 500;
     font-size: 1.5rem;
 }
 
-.imagenperfil{
+.imagenperfil {
     height: 80px;
     width: 80px;
 }
 
+/* Sección principal */
 .mi-informacion {
-    padding: 50px 0; /* Color de fondo claro */
+    padding: 50px 0;
 }
 
-/* Estilo del título "Full Stack Developer" */
 .titulo-desarrollador {
     font-size: 7rem;
     font-weight: bold;
-    color: white; /* Color oscuro */
+    color: white;
 }
 
-/* Estilo del subtítulo "Jose Ignacio Castillo" */
 .nombre-desarrollador {
     font-size: 5rem;
-    font-style:normal;
-    color: white; /* Color gris oscuro */
-    font-weight: 00;
+    font-style: normal;
+    color: white;
 }
 
-/* Estilo para los botones */
 .botones .btn {
     padding: 10px 20px;
     font-size: 1.2rem;
 }
-.seccion-media{
-    background-color: rgb(4, 4, 26);
+
+.seccion-media {
+    background-color: rgb(2, 2, 19);
 }
 
-.iconoss{
+/* Sección sobre mí */
+.sobremi-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenido-sobremi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo-sobre-mi {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: left;
+}
+
+.foto-sobremi {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.iconoss {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     margin: 0 30px;
 }
 
-
-.fechas{
-    color: #e0e0e0; /* Un color blanco más suave para mejor contraste */
+/* Sección estudios */
+.fechas {
+    color: #e0e0e0;
     line-height: 1.8;
     font-size: 2rem;
     font-weight: 500;
     padding-right: 1rem;
 }
-.texto-estudios{
-    color: #e0e0e0; 
+
+.texto-estudios {
+    color: #e0e0e0;
     line-height: 1.8;
     font-size: 1.5rem;
     font-weight: 500;
-}  
-.icono{
+}
+
+.icono {
     color: white;
     font-size: 2rem;
     margin-right: 10px;
 }
-.cosas-estudiadas{
+
+.cosas-estudiadas {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     color: white;
 }
+
 .puesto {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
-    padding: 0 2rem; 
-    gap: 10px; 
+    padding: 0 2rem;
+    gap: 10px;
 }
+
+
 @media (max-width: 768px) {
+    .titulo-desarrollador {
+        font-size: 4rem; 
+    }
+
+    .nombre-desarrollador {
+        font-size: 2.5rem; 
+    }
+
+    .contenido-sobremi {
+        flex-direction: column; 
+    }
+
+    .parrafo-sobre-mi {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem; 
+    }
+
+    .foto-sobremi {
+        margin-right: 0;
+        margin-bottom: 1rem; 
+    }
+
     .puesto {
-        flex-direction: column; /* Cambia la disposición a vertical en pantallas pequeñas */
+        flex-direction: column;
         padding: 0 1rem;
+    }
+
+    .puesto h3 {
+        font-size: 1.5rem; 
+    }
+
+    .puesto .fechas {
+        font-size: 1rem;
+        color: #ccc;
+        margin: 5px 0;
+    }
+
+    .puesto p {
+        font-size: 1rem; 
+        line-height: 1.4;
+    }
+
+    .botones .btn {
+        font-size: 1rem; 
+        padding: 8px 15px; 
+    }
+
+    .iconoss {
+        font-size: 2rem; 
+        margin: 0 15px; 
     }
 }
 
-.puesto .icono {
-    font-size: 1.5rem;
-    margin-right: 10px;
-}
-
-.puesto h3 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin: 0;
-    /* Elimina el display: flex para que no alinee el icono y el texto en fila */
-}
-
-.puesto .fechas {
-    font-size: 1rem;
-    color: #ccc;
-    margin: 5px 0;
-}
-
-.puesto p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin: 5px 0 15px;
-}
-.titulo-experiencia{
+.titulo-experiencia {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgb(5, 5, 33);
+    background-color: rgb(4, 4, 26);
     color: white;
     border-bottom: 2px solid #fff;
     font-size: 2.5rem;
