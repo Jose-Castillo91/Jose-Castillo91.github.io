@@ -1,0 +1,20 @@
+/* Estilos globales */
+body {
+    background-color: rgb(4, 4, 26);
+}
+/* barra de navegacion */
+.mi-nombre {
+    color: white;
+}
+.barraconcosas {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.imagenperfil {
+    height: 80px;
+    width: 80px;
+}
+.barra-navegacion{
+    background-color: rgb(5, 5, 29);
+}
