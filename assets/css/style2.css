@@ -1,6 +1,6 @@
 /* Estilos globales */
 body {
-    background-color: rgb(4, 4, 26);
+    background-color: rgb(6, 6, 29);
 }
 /* barra de navegacion */
 .mi-nombre {
@@ -16,5 +16,21 @@ body {
     width: 80px;
 }
 .barra-navegacion{
-    background-color: rgb(5, 5, 29);
+    background-color: rgb(5, 5, 33);
 }
+
+
+  .fixed-image {
+    height: 250px; 
+    object-fit: contain; 
+  }
+
+  .card {
+    min-height: 400px; 
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
