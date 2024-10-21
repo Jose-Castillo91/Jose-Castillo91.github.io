@@ -1,4 +1,7 @@
 /* Estilos globales */
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: rgb(4, 4, 26);
 }
@@ -54,6 +57,8 @@ body {
 .sobremi-container {
     padding: 2rem;
     text-align: center;
+    margin: 0 15rem;
+    text-align: justify;
 }
 
 .contenido-sobremi {
@@ -78,7 +83,11 @@ body {
     margin-right: 2rem;
     object-fit: cover;
 }
-
+.mi-experiencia{
+    margin: 0 10rem;
+    border-radius: 1rem;
+    text-align: justify;
+}
 .iconoss {
     color: rgb(255, 255, 255);
     font-size: 3rem;
