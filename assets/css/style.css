@@ -1,206 +1,273 @@
 /* Estilos globales */
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 body {
-    background-color: rgb(4, 4, 26);
+  background-color: rgb(4, 4, 26);
 }
 
 .mi-nombre {
-    color: white;
+  color: white;
 }
 
 .colorletra {
-    color: white;
-    font-weight: 600;
-    font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .barraconcosas {
-    color: white;
-    font-weight: 500;
-    font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .imagenperfil {
-    height: 80px;
-    width: 80px;
+  height: 80px;
+  width: 80px;
 }
 
 /* Sección principal */
 .mi-informacion {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .titulo-desarrollador {
-    font-size: 7rem;
-    font-weight: bold;
-    color: white;
+  font-size: 7rem;
+  font-weight: bold;
+  color: white;
 }
 
 .nombre-desarrollador {
-    font-size: 5rem;
-    font-style: normal;
-    color: white;
+  font-size: 5rem;
+  font-style: normal;
+  color: white;
 }
 
 .botones .btn {
-    padding: 10px 20px;
-    font-size: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1.2rem;
 }
 
 .seccion-media {
-    background-color: rgb(2, 2, 19);
+  background-color: rgb(2, 2, 19);
 }
 
 /* Sección sobre mí */
 .sobremi-container {
-    padding: 2rem;
-    text-align: center;
-    margin: 0 15rem;
-    text-align: justify;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 15rem;
+  text-align: justify;
 }
 
 .contenido-sobremi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .parrafo-sobre-mi {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: left;
 }
 
 .foto-sobremi {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-right: 2rem;
-    object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  object-fit: cover;
 }
-.mi-experiencia{
-    margin: 0 10rem;
-    border-radius: 1rem;
-    text-align: justify;
+.mi-experiencia {
+  margin: 0 10rem;
+  border-radius: 1rem;
+  text-align: justify;
 }
 .iconoss {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    margin: 0 30px;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin: 0 30px;
 }
 
 /* Sección estudios */
 .fechas {
-    color: #e0e0e0;
-    line-height: 1.8;
-    font-size: 2rem;
-    font-weight: 500;
-    padding-right: 1rem;
+  color: #e0e0e0;
+  line-height: 1.8;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-right: 1rem;
 }
 
 .texto-estudios {
-    color: #e0e0e0;
-    line-height: 1.8;
-    font-size: 1.5rem;
-    font-weight: 500;
+  color: #e0e0e0;
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .icono {
-    color: white;
-    font-size: 2rem;
-    margin-right: 10px;
+  color: white;
+  font-size: 2rem;
+  margin-right: 10px;
 }
 
 .cosas-estudiadas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: white;
 }
 
 .puesto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 0 2rem;
-    gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 2rem;
+  gap: 10px;
 }
 /* contacto */
 
-.contactame{
-    color: white;
+.contactame {
+  color: white;
 }
 
 @media (max-width: 768px) {
-    .titulo-desarrollador {
-        font-size: 4rem; 
-    }
+  .titulo-desarrollador {
+    font-size: 4rem;
+  }
 
-    .nombre-desarrollador {
-        font-size: 2.5rem; 
-    }
-
-    .contenido-sobremi {
-        flex-direction: column; 
-    }
-
-    .parrafo-sobre-mi {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 1.2rem; 
-    }
-
-    .foto-sobremi {
-        margin-right: 0;
-        margin-bottom: 1rem; 
-    }
-
-    .puesto {
-        flex-direction: column;
-        padding: 0 1rem;
-    }
-
-    .puesto h3 {
-        font-size: 1.5rem; 
-    }
-
-    .puesto .fechas {
-        font-size: 1rem;
-        color: #ccc;
-        margin: 5px 0;
-    }
-
-    .puesto p {
-        font-size: 1rem; 
-        line-height: 1.4;
-    }
-
-    .botones .btn {
-        font-size: 1rem; 
-        padding: 8px 15px; 
-    }
-
-    .iconoss {
-        font-size: 2rem; 
-        margin: 0 15px; 
-    }
-}
-
-.titulo-experiencia {
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgb(4, 4, 26);
-    color: white;
-    border-bottom: 2px solid #fff;
+  .nombre-desarrollador {
     font-size: 2.5rem;
+  }
+
+  .contenido-sobremi {
+    flex-direction: column;
+  }
+
+  .parrafo-sobre-mi {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .foto-sobremi {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .puesto {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .puesto h3 {
+    font-size: 1.5rem;
+  }
+
+  .puesto .fechas {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 5px 0;
+  }
+
+  .puesto p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .botones .btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  .iconoss {
+    font-size: 2rem;
+    margin: 0 15px;
+  }
 }
 
+@media (max-width: 576px) {
+    .titulo-desarrollador {
+      font-size: 3rem;
+    }
+  
+    .nombre-desarrollador {
+      font-size: 2rem;
+    }
+  
+    .contenido-sobremi {
+      flex-direction: column;
+    }
+  
+    .parrafo-sobre-mi {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1rem;
+    }
+  
+    .foto-sobremi {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .botones .btn {
+      font-size: 0.9rem;
+      padding: 6px 10px;
+    }
+  
+    .iconoss {
+      font-size: 1.5rem;
+    }
+  
+    .puesto h3 {
+      font-size: 1.2rem;
+    }
+  
+    .puesto .fechas {
+      font-size: 0.9rem;
+    }
+  
+    .puesto p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .sobremi-container {
+      margin: 0 5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sobremi-container {
+      margin: 0 2rem;
+    }
+  }
+  @media (max-width: 576px) {
+    form .form-control {
+      font-size: 0.9rem;
+    }
+  
+    form button {
+      font-size: 1rem;
+      padding: 8px 20px;
+    }
+  }
+  
+.titulo-experiencia {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(4, 4, 26);
+  color: white;
+  border-bottom: 2px solid #fff;
+  font-size: 2.5rem;
+}
