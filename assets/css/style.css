@@ -1,4 +1,6 @@
 /* Estilos globales */
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +8,10 @@ body {
   background-color: rgb(4, 4, 26);
 }
 
+.navbar {
+  width: 100%;
+  overflow-x: hidden;
+}
 .mi-nombre {
   color: white;
 }
@@ -123,7 +129,7 @@ body {
   align-items: center;
   padding-right: 1rem;
   padding-left: 1rem;
-    color: white;
+  color: white;
 }
 
 .puesto {
@@ -204,73 +210,91 @@ body {
 }
 
 @media (max-width: 576px) {
-    .titulo-desarrollador {
-      font-size: 3rem;
-    }
-  
-    .nombre-desarrollador {
-      font-size: 2rem;
-    }
-  
-    .contenido-sobremi {
-      flex-direction: column;
-    }
-  
-    .parrafo-sobre-mi {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      font-size: 1rem;
-    }
-  
-    .foto-sobremi {
-      width: 200px;
-      height: 200px;
-    }
-  
-    .botones .btn {
-      font-size: 0.9rem;
-      padding: 6px 10px;
-    }
-  
-    .iconoss {
-      font-size: 1.5rem;
-    }
-  
-    .puesto h3 {
-      font-size: 1.2rem;
-    }
-  
-    .puesto .fechas {
-      font-size: 0.9rem;
-    }
-  
-    .puesto p {
-      font-size: 0.9rem;
-    }
+  .navbar {
+    padding: 0.5rem 1rem;
   }
-  
-  @media (max-width: 992px) {
-    .sobremi-container {
-      margin: 0 2rem;
-    }
+
+
+  .navbar-brand {
+    font-size: 1rem;
   }
-  
-  @media (max-width: 768px) {
-    .sobremi-container {
-      margin: 0 2rem;
-    }
+
+  .imagenperfil {
+    width: 40px;
+    height: 0px; 
   }
-  @media (max-width: 576px) {
-    form .form-control {
-      font-size: 0.9rem;
-    }
-  
-    form button {
-      font-size: 1rem;
-      padding: 8px 20px;
-    }
+
+  .barraconcosas {
+    font-size: 1rem; 
   }
-  
+
+  .titulo-desarrollador {
+    font-size: 3rem;
+  }
+
+  .nombre-desarrollador {
+    font-size: 2rem;
+  }
+
+  .contenido-sobremi {
+    flex-direction: column;
+  }
+
+  .parrafo-sobre-mi {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+  }
+
+  .foto-sobremi {
+    width: 200px;
+    height: 200px;
+  }
+
+  .botones .btn {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  .iconoss {
+    font-size: 1.5rem;
+  }
+
+  .puesto h3 {
+    font-size: 1.2rem;
+  }
+
+  .puesto .fechas {
+    font-size: 0.9rem;
+  }
+
+  .puesto p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .sobremi-container {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobremi-container {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 576px) {
+  form .form-control {
+    font-size: 0.9rem;
+  }
+
+  form button {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
 .titulo-experiencia {
   display: flex;
   justify-content: center;
